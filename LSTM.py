@@ -36,9 +36,9 @@ class LSTM(nn.Module):
         # batch * seq_length * embedding_size
         embed = self.embed(inputs)
         # batch * seq_length * 2hidden_size
-        _, (hidden, cell) = self.lstm(embed, last_hidden)
+        outputs, _ = self.lstm(embed, last_hidden)
         # batch * hidden_size
-        outputs = torch.cat((hidden[-2], hidden[-1]), dim=1)
+        outputs = torch.mean(outputs, dim=1)
         outputs = self.ReLU(outputs)
         outputs = self.dropout(outputs)
         # batch * 5
