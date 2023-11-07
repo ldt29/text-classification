@@ -161,7 +161,7 @@ class FastTextDataset(Dataset):
         self.dictionary = dictionary
         self.padding_idx = self.dictionary.pad()
         self.vocab_size = len(dictionary)
-        self.total_size = 1007
+        self.total_size = 2017
         self.lens = []
 
         #########################################  Your Code  ###########################################
@@ -182,14 +182,11 @@ class FastTextDataset(Dataset):
                         continue
 
                     tokens[i] = tokens[i].lower()
-                    if tokens[i] not in self.dictionary.indices.keys():
-                        tokens[i] = '<unk>'
-                token_id = self.dictionary.encode_line(tokens)
-                n_grams = nltk.ngrams(token_id, n)
-                word_hash = self.wordhash(token_id)
+                n_grams = nltk.ngrams(tokens, n)
+                word_hash = self.wordhash(tokens)
                 n_gram_hash = self.n_gramhash(n_grams, n)
-                self.lens.append(len(token_id))
-                self.data.append((raw_text, tokens, word_hash, n_gram_hash, label, len(token_id)))
+                self.lens.append(len(tokens))
+                self.data.append((raw_text, tokens, word_hash, n_gram_hash, label, len(tokens)))
         #################################################################################################
 
     def __len__(self):
@@ -200,14 +197,23 @@ class FastTextDataset(Dataset):
         return token_id, n_gram, label, length
 
     
-    def wordhash(self, token_id):
-        return torch.tensor([token_id[i]*14918087 % self.total_size for i in range(len(token_id))])
+    def wordhash(self, tokens):
+        return torch.tensor([self.subwordhash(token) for token in tokens])
     
+    def subwordhash(self, token):
+        value = 0
+        for char in token:
+            value = (value + ord(char)) * 27 % self.total_size
+        return value
+
     def n_gramhash(self, n_grams, n):
         if n == 2:
-            return torch.tensor([(tokens[0]*14918087*18408749 + tokens[1]*14918087) % self.total_size for tokens in n_grams])
+            return torch.tensor([(self.subwordhash(tokens[0])*14918087*18408749 
+                                  + self.subwordhash(tokens[1])*14918087) % self.total_size for tokens in n_grams])
         if n == 3:
-            return torch.tensor([(tokens[0]*14918087*18408749*5971847 + tokens[1]*14918087*18408749 + tokens[2]*14918087) % self.total_size for tokens in n_grams])
+            return torch.tensor([(self.subwordhash(tokens[0])*14918087*18408749*5971847 + 
+                                  self.subwordhash(tokens[1])*14918087*18408749 + 
+                                  self.subwordhash(tokens[2])*14918087) % self.total_size for tokens in n_grams])
         else:
             raise NotImplementedError 
     
