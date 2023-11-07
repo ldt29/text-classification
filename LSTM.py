@@ -8,7 +8,8 @@ class LSTM(nn.Module):
         # todo
         # implement lstm
         # the output shape should be batch * 5
-
+        self.num_layers = num_layers
+        self.hidden_size = hidden_size
         self.embed = nn.Embedding(vocab_size, embedding_size, padding_idx=padding_idx)
         self.embed.weight.data.uniform_(-1, 1)
         self.lstm = nn.LSTM(embedding_size, hidden_size, num_layers=num_layers, batch_first=True, bidirectional=True, dropout=0.5)
@@ -28,7 +29,10 @@ class LSTM(nn.Module):
         # todo
         # implement lstm
         # the output logits shape should be batch * 5
-
+        if last_hidden is None:
+            weight = next(self.parameters()).data
+            last_hidden = (weight.new(2*self.num_layers, inputs.size(0), self.hidden_size).zero_(),
+                            weight.new(2*self.num_layers, inputs.size(0), self.hidden_size).zero_())
         # batch * seq_length * embedding_size
         embed = self.embed(inputs)
         # batch * seq_length * 2hidden_size

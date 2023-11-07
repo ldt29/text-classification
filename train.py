@@ -43,12 +43,7 @@ def evaluate(args, model, valid_loader, criterion):
         for i, (inputs, labels) in enumerate(valid_loader):
             inputs = inputs.to(device)
             labels = labels.to(device) - 1
-            if args.model_type == 'lstm':
-                hidden = (torch.zeros(2 * args.num_layers, len(labels), args.hidden_size).to(device),
-                torch.zeros(2 * args.num_layers, len(labels), args.hidden_size).to(device))
-                outputs = model(inputs, hidden)
-            else:
-                outputs = model(inputs)
+            outputs = model(inputs)
             nll_loss = criterion(outputs, labels)
             loss = nll_loss.mean()
             _, predict = torch.max(outputs, dim=1)
@@ -155,12 +150,7 @@ def train(args):
         for i, (inputs, labels) in enumerate(train_loader):
             inputs = inputs.to(device)
             labels = labels.to(device) - 1
-            if args.model_type == 'lstm':
-                hidden = (torch.zeros(2 * args.num_layers, len(labels), args.hidden_size).to(device),
-                torch.zeros(2 * args.num_layers, len(labels), args.hidden_size).to(device))
-                outputs = model(inputs, hidden)
-            else:
-                outputs = model(inputs)
+            outputs = model(inputs)
             nll_loss = criterion(outputs, labels)
             loss = nll_loss.mean()
             #print(loss)

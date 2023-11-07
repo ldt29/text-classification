@@ -1,544 +1,544 @@
-21:37:50 INFO Epoch: 1, 	 Iter: 50/188, 	 Loss: 1.63122475, 	 Acc: 24.750 , 	 lr: 0.000500
-21:37:51 INFO Epoch: 1, 	 Iter: 100/188, 	 Loss: 1.63348179, 	 Acc: 23.844 , 	 lr: 0.000500
-21:37:51 INFO Epoch: 1, 	 Iter: 150/188, 	 Loss: 1.63726796, 	 Acc: 23.250 , 	 lr: 0.000500
-21:37:52 INFO Epoch: 1, 	 Valid, Loss: 1.61267410, 	 Acc: 22.600 , 	 Best Acc: 22.600
-21:37:52 DEBUG Loaded backend agg version v2.2.
-21:37:52 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msbm10.ttf', name='msbm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Navilu/Navilu.ttf', name='Navilu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-orya-extra/utkal.ttf', name='ori1Uni', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-Bold.ttf', name='Kinnari', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee.ttf', name='Sawasdee', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist-Bold.ttf', name='Tlwg Typist', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-LightOblique.ttf', name='Umpush', style='oblique', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-deva-extra/chandas1-2.ttf', name='Chandas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstTitle.ttf', name='KacstTitle', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-deva-extra/kalimati.ttf', name='Kalimati', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari.ttf', name='Kinnari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma-BoldOblique.ttf', name='Loma', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Manjari-Bold.otf', name='Manjari', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-Oblique.ttf', name='Umpush', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma-Bold.ttf', name='Loma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-devanagari/Lohit-Devanagari.ttf', name='Lohit Devanagari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa.ttf', name='Purisa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/JamrulNormal.ttf', name='Jamrul', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.9590909090909092
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa-Oblique.ttf', name='Purisa', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc', name='Noto Serif CJK JP', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/LikhanNormal.ttf', name='Likhan', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOS.ttf', name='Khmer OS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-Oblique.ttf', name='Norasi', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter-BoldOblique.ttf', name='Tlwg Typewriter', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-assamese/Lohit-Assamese.ttf', name='Lohit Assamese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-SemiBold.ttf', name='Rasa', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstQurn.ttf', name='KacstQurn', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree-Oblique.ttf', name='Waree', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Sahadeva/sahadeva.ttf', name='Sahadeva', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak-fonts/Samyak-Malayalam.ttf', name='Samyak Malayalam', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstLetter.ttf', name='KacstLetter', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono.ttf', name='Tlwg Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Medium.ttf', name='Yrsa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerif.ttf', name='FreeSerif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-kannada/Lohit-Kannada.ttf', name='Lohit Kannada', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Rachana-Regular.ttf', name='Rachana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak/Samyak-Devanagari.ttf', name='Samyak Devanagari', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Regular.ttf', name='Rasa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Manjari-Thin.otf', name='Manjari', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/PadaukBook-Regular.ttf', name='Padauk Book', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Sarai/Sarai.ttf', name='Sarai', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush.ttf', name='Umpush', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree.ttf', name='Waree', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-BoldItalic.ttf', name='Norasi', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msam10.ttf', name='msam10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Keraleeyam-Regular.ttf', name='Keraleeyam', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-kalapi/Kalapi.ttf', name='Kalapi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-Bold.ttf', name='Umpush', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-Italic.ttf', name='Kinnari', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-telu-extra/vemana2000.ttf', name='Vemana2000', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBoldOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-BoldOblique.ttf', name='Kinnari', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi.ttf', name='Norasi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/Rekha.ttf', name='Rekha', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-punjabi/Lohit-Gurmukhi.ttf', name='Lohit Gurmukhi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee-Oblique.ttf', name='Sawasdee', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak-fonts/Samyak-Tamil.ttf', name='Samyak Tamil', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst-one/KacstOne-Bold.ttf', name='KacstOne', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc', name='Noto Serif CJK JP', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstFarsi.ttf', name='KacstFarsi', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-malayalam/Lohit-Malayalam.ttf', name='Lohit Malayalam', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Bold.ttf', name='Rasa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/mitra.ttf', name='Mitra Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuMathTeXGyre.ttf', name='DejaVu Math TeX Gyre', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstDecorative.ttf', name='KacstDecorative', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist-Oblique.ttf', name='Tlwg Typist', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Gayathri-Bold.otf', name='Gayathri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman-Italic.ttf', name='Laksaman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Gayathri-Regular.otf', name='Gayathri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/pagul/Pagul.ttf', name='Pagul', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee-BoldOblique.ttf', name='Sawasdee', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/PadaukBook-Bold.ttf', name='Padauk Book', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter-Oblique.ttf', name='Tlwg Typewriter', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Bold.ttf', name='Yrsa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo-Bold.ttf', name='Tlwg Typo', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-L.ttf', name='Ubuntu', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-telu-extra/Pothana2000.ttf', name='Pothana2000', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/wasy10.ttf', name='wasy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-bengali/Lohit-Bengali.ttf', name='Lohit Bengali', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstTitleL.ttf', name='KacstTitleL', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-Oblique.ttf', name='Kinnari', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstDigital.ttf', name='KacstDigital', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', name='FreeSans', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/RaghuMalayalamSans-Regular.ttf', name='RaghuMalayalamSans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-MI.ttf', name='Ubuntu', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda-Oblique.ttf', name='Garuda', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee-Bold.ttf', name='Sawasdee', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-Light.ttf', name='Umpush', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda-Bold.ttf', name='Garuda', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Medium.ttf', name='Rasa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMono.ttf', name='FreeMono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman-BoldItalic.ttf', name='Laksaman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.2440909090909091
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/rsfs10.ttf', name='rsfs10', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-RI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf', name='Ubuntu', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstNaskh.ttf', name='KacstNaskh', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman.ttf', name='Laksaman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstBook.ttf', name='KacstBook', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', name='Ubuntu', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman-Bold.ttf', name='Laksaman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo.ttf', name='Tlwg Typo', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstPen.ttf', name='KacstPen', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono-BoldOblique.ttf', name='Tlwg Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-BI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-BoldOblique.ttf', name='Norasi', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Light.ttf', name='Rasa', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/mry_KacstQurn.ttf', name='mry_KacstQurn', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Karumbi-Regular.ttf', name='Karumbi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-BoldOblique.ttf', name='Umpush', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/esint10.ttf', name='esint10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lao/Phetsarath_OT.ttf', name='Phetsarath OT', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-tamil-classical/Lohit-Tamil-Classical.ttf', name='Lohit Tamil Classical', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono-Oblique.ttf', name='Tlwg Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/Padauk-Bold.ttf', name='Padauk', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Uroob-Regular.ttf', name='Uroob', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/ani.ttf', name='Ani', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf', name='Ubuntu', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/padmaa-Bold.1.1.ttf', name='padmaa-Bold.1.1', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/MuktiNarrow.ttf', name='Mukti Narrow', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-BoldItalic.ttf', name='Kinnari', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Light.ttf', name='Yrsa', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Regular.ttf', name='Yrsa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter.ttf', name='Tlwg Typewriter', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.9590909090909092
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-LI.ttf', name='Ubuntu', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/AnjaliOldLipi-Regular.ttf', name='AnjaliOldLipi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstOffice.ttf', name='KacstOffice', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda-BoldOblique.ttf', name='Garuda', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Meera-Regular.ttf', name='Meera', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/stmary10.ttf', name='stmary10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa-BoldOblique.ttf', name='Purisa', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/openoffice/opens___.ttf', name='OpenSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/padmaa.ttf', name='padmaa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-deva-extra/samanata.ttf', name='Samanata', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-SemiBold.ttf', name='Yrsa', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree-BoldOblique.ttf', name='Waree', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree-Bold.ttf', name='Waree', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/aakar-medium.ttf', name='aakar', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBoldOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 2.244090909090909
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/eufm10.ttf', name='eufm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Nakula/nakula.ttf', name='Nakula', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-C.ttf', name='Ubuntu Condensed', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf', name='FreeSerif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-Bold.ttf', name='Norasi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOSsys.ttf', name='Khmer OS System', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstPoster.ttf', name='KacstPoster', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo-Oblique.ttf', name='Tlwg Typo', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-guru-extra/Saab.ttf', name='Saab', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf', name='FreeMono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak-fonts/Samyak-Gujarati.ttf', name='Samyak Gujarati', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo-BoldOblique.ttf', name='Tlwg Typo', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist.ttf', name='Tlwg Typist', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Dyuthi-Regular.ttf', name='Dyuthi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/sinhala/lklug.ttf', name='LKLUG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Rachana-Bold.ttf', name='Rachana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono-Bold.ttf', name='Tlwg Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-tamil/Lohit-Tamil.ttf', name='Lohit Tamil', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Suruma.ttf', name='Suruma', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-RI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter-Bold.ttf', name='Tlwg Typewriter', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tibetan-machine/TibetanMachineUni.ttf', name='Tibetan Machine Uni', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/Padauk-Regular.ttf', name='Padauk', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-Italic.ttf', name='Norasi', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma.ttf', name='Loma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Gayathri-Thin.otf', name='Gayathri', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Manjari-Regular.otf', name='Manjari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Gargi/Gargi.ttf', name='Gargi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda.ttf', name='Garuda', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/abyssinica/AbyssinicaSIL-Regular.ttf', name='Abyssinica SIL', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-oriya/Lohit-Odia.ttf', name='Lohit Odia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Chilanka-Regular.otf', name='Chilanka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-telugu/Lohit-Telugu.ttf', name='Lohit Telugu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-gujarati/Lohit-Gujarati.ttf', name='Lohit Gujarati', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist-BoldOblique.ttf', name='Tlwg Typist', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Gubbi/Gubbi.ttf', name='Gubbi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstScreen.ttf', name='KacstScreen', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst-one/KacstOne.ttf', name='KacstOne', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/padmaa-Medium-0.5.ttf', name='padmaa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa-Bold.ttf', name='Purisa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstArt.ttf', name='KacstArt', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma-Oblique.ttf', name='Loma', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Th.ttf', name='Ubuntu', style='normal', variant='normal', weight=250, stretch='normal', size='scalable')) = 10.1925
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/MuktiNarrowBold.ttf', name='Mukti Narrow', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
-21:37:52 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSans.ttf', name='FreeSans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
-21:37:52 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
-21:37:53 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:37:53 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:37:53 DEBUG Writing TrueType font.
-21:37:53 INFO Epoch: 2, 	 Iter: 50/188, 	 Loss: 1.58357006, 	 Acc: 27.750 , 	 lr: 0.000500
-21:37:54 INFO Epoch: 2, 	 Iter: 100/188, 	 Loss: 1.59162269, 	 Acc: 26.875 , 	 lr: 0.000500
-21:37:54 INFO Epoch: 2, 	 Iter: 150/188, 	 Loss: 1.59688368, 	 Acc: 26.312 , 	 lr: 0.000500
-21:37:56 INFO Epoch: 2, 	 Valid, Loss: 1.63037386, 	 Acc: 21.800 , 	 Best Acc: 22.600
-21:37:56 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:37:56 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:37:56 DEBUG Writing TrueType font.
-21:37:56 INFO Epoch: 3, 	 Iter: 50/188, 	 Loss: 1.55705822, 	 Acc: 30.562 , 	 lr: 0.000500
-21:37:57 INFO Epoch: 3, 	 Iter: 100/188, 	 Loss: 1.55866083, 	 Acc: 30.938 , 	 lr: 0.000500
-21:37:58 INFO Epoch: 3, 	 Iter: 150/188, 	 Loss: 1.56867205, 	 Acc: 29.667 , 	 lr: 0.000500
-21:37:59 INFO Epoch: 3, 	 Valid, Loss: 1.61146947, 	 Acc: 25.000 , 	 Best Acc: 25.000
-21:37:59 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:37:59 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:37:59 DEBUG Writing TrueType font.
-21:38:00 INFO Epoch: 4, 	 Iter: 50/188, 	 Loss: 1.50761570, 	 Acc: 36.375 , 	 lr: 0.000500
-21:38:00 INFO Epoch: 4, 	 Iter: 100/188, 	 Loss: 1.51283854, 	 Acc: 36.281 , 	 lr: 0.000500
-21:38:01 INFO Epoch: 4, 	 Iter: 150/188, 	 Loss: 1.52462546, 	 Acc: 35.125 , 	 lr: 0.000500
-21:38:02 INFO Epoch: 4, 	 Valid, Loss: 1.54995599, 	 Acc: 32.200 , 	 Best Acc: 32.200
-21:38:02 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:02 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:02 DEBUG Writing TrueType font.
-21:38:03 INFO Epoch: 5, 	 Iter: 50/188, 	 Loss: 1.46883066, 	 Acc: 40.812 , 	 lr: 0.000500
-21:38:04 INFO Epoch: 5, 	 Iter: 100/188, 	 Loss: 1.50277244, 	 Acc: 37.406 , 	 lr: 0.000500
-21:38:04 INFO Epoch: 5, 	 Iter: 150/188, 	 Loss: 1.52492105, 	 Acc: 34.979 , 	 lr: 0.000500
-21:38:06 INFO Epoch: 5, 	 Valid, Loss: 1.57742137, 	 Acc: 30.400 , 	 Best Acc: 32.200
-21:38:06 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:06 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:06 DEBUG Writing TrueType font.
-21:38:06 INFO Epoch: 6, 	 Iter: 50/188, 	 Loss: 1.45055804, 	 Acc: 43.688 , 	 lr: 0.000500
-21:38:07 INFO Epoch: 6, 	 Iter: 100/188, 	 Loss: 1.46750396, 	 Acc: 41.562 , 	 lr: 0.000500
-21:38:08 INFO Epoch: 6, 	 Iter: 150/188, 	 Loss: 1.49155879, 	 Acc: 39.125 , 	 lr: 0.000500
-21:38:09 INFO Epoch: 6, 	 Valid, Loss: 1.55318325, 	 Acc: 33.200 , 	 Best Acc: 33.200
-21:38:09 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:09 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:09 DEBUG Writing TrueType font.
-21:38:09 INFO Epoch: 7, 	 Iter: 50/188, 	 Loss: 1.40111904, 	 Acc: 49.688 , 	 lr: 0.000500
-21:38:10 INFO Epoch: 7, 	 Iter: 100/188, 	 Loss: 1.43128734, 	 Acc: 46.031 , 	 lr: 0.000500
-21:38:11 INFO Epoch: 7, 	 Iter: 150/188, 	 Loss: 1.45527107, 	 Acc: 43.312 , 	 lr: 0.000500
-21:38:12 INFO Epoch: 7, 	 Valid, Loss: 1.52271818, 	 Acc: 35.400 , 	 Best Acc: 35.400
-21:38:12 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:12 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:12 DEBUG Writing TrueType font.
-21:38:13 INFO Epoch: 8, 	 Iter: 50/188, 	 Loss: 1.38794758, 	 Acc: 50.187 , 	 lr: 0.000500
-21:38:13 INFO Epoch: 8, 	 Iter: 100/188, 	 Loss: 1.41740442, 	 Acc: 46.844 , 	 lr: 0.000500
-21:38:14 INFO Epoch: 8, 	 Iter: 150/188, 	 Loss: 1.43850868, 	 Acc: 44.458 , 	 lr: 0.000500
-21:38:15 INFO Epoch: 8, 	 Valid, Loss: 1.54135306, 	 Acc: 32.400 , 	 Best Acc: 35.400
-21:38:15 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:15 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:15 DEBUG Writing TrueType font.
-21:38:16 INFO Epoch: 9, 	 Iter: 50/188, 	 Loss: 1.36167853, 	 Acc: 52.750 , 	 lr: 0.000500
-21:38:16 INFO Epoch: 9, 	 Iter: 100/188, 	 Loss: 1.39347619, 	 Acc: 49.406 , 	 lr: 0.000500
-21:38:17 INFO Epoch: 9, 	 Iter: 150/188, 	 Loss: 1.42337184, 	 Acc: 46.250 , 	 lr: 0.000500
-21:38:18 INFO Epoch: 9, 	 Valid, Loss: 1.53739682, 	 Acc: 33.200 , 	 Best Acc: 35.400
-21:38:18 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:18 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:18 DEBUG Writing TrueType font.
-21:38:19 INFO Epoch: 10, 	 Iter: 50/188, 	 Loss: 1.40131212, 	 Acc: 49.375 , 	 lr: 0.000500
-21:38:20 INFO Epoch: 10, 	 Iter: 100/188, 	 Loss: 1.40737329, 	 Acc: 48.438 , 	 lr: 0.000500
-21:38:20 INFO Epoch: 10, 	 Iter: 150/188, 	 Loss: 1.43224241, 	 Acc: 45.896 , 	 lr: 0.000500
-21:38:21 INFO Epoch: 10, 	 Valid, Loss: 1.52143485, 	 Acc: 35.800 , 	 Best Acc: 35.800
-21:38:21 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:21 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:21 DEBUG Writing TrueType font.
-21:38:22 INFO Epoch: 11, 	 Iter: 50/188, 	 Loss: 1.34557692, 	 Acc: 54.750 , 	 lr: 0.000500
-21:38:22 INFO Epoch: 11, 	 Iter: 100/188, 	 Loss: 1.36217192, 	 Acc: 53.156 , 	 lr: 0.000500
-21:38:23 INFO Epoch: 11, 	 Iter: 150/188, 	 Loss: 1.38279858, 	 Acc: 51.208 , 	 lr: 0.000500
-21:38:24 INFO Epoch: 11, 	 Valid, Loss: 1.54970054, 	 Acc: 34.200 , 	 Best Acc: 35.800
-21:38:24 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:24 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:24 DEBUG Writing TrueType font.
-21:38:24 INFO Epoch: 12, 	 Iter: 50/188, 	 Loss: 1.31625081, 	 Acc: 58.750 , 	 lr: 0.000500
-21:38:25 INFO Epoch: 12, 	 Iter: 100/188, 	 Loss: 1.33433402, 	 Acc: 56.531 , 	 lr: 0.000500
-21:38:25 INFO Epoch: 12, 	 Iter: 150/188, 	 Loss: 1.36168997, 	 Acc: 53.646 , 	 lr: 0.000500
-21:38:26 INFO Epoch: 12, 	 Valid, Loss: 1.50959662, 	 Acc: 37.600 , 	 Best Acc: 37.600
-21:38:26 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:26 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:26 DEBUG Writing TrueType font.
-21:38:27 INFO Epoch: 13, 	 Iter: 50/188, 	 Loss: 1.30092530, 	 Acc: 59.500 , 	 lr: 0.000500
-21:38:27 INFO Epoch: 13, 	 Iter: 100/188, 	 Loss: 1.34428056, 	 Acc: 55.375 , 	 lr: 0.000500
-21:38:28 INFO Epoch: 13, 	 Iter: 150/188, 	 Loss: 1.46002163, 	 Acc: 43.938 , 	 lr: 0.000500
-21:38:29 INFO Epoch: 13, 	 Valid, Loss: 1.67294569, 	 Acc: 22.800 , 	 Best Acc: 37.600
-21:38:29 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:29 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:29 DEBUG Writing TrueType font.
-21:38:29 INFO Epoch: 14, 	 Iter: 50/188, 	 Loss: 1.35977836, 	 Acc: 54.125 , 	 lr: 0.000500
-21:38:30 INFO Epoch: 14, 	 Iter: 100/188, 	 Loss: 1.35207393, 	 Acc: 54.781 , 	 lr: 0.000500
-21:38:30 INFO Epoch: 14, 	 Iter: 150/188, 	 Loss: 1.37106545, 	 Acc: 52.646 , 	 lr: 0.000500
-21:38:31 INFO Epoch: 14, 	 Valid, Loss: 1.50883444, 	 Acc: 36.800 , 	 Best Acc: 37.600
-21:38:31 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:31 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:31 DEBUG Writing TrueType font.
-21:38:32 INFO Epoch: 15, 	 Iter: 50/188, 	 Loss: 1.27760573, 	 Acc: 62.062 , 	 lr: 0.000500
-21:38:32 INFO Epoch: 15, 	 Iter: 100/188, 	 Loss: 1.29354292, 	 Acc: 60.688 , 	 lr: 0.000500
-21:38:33 INFO Epoch: 15, 	 Iter: 150/188, 	 Loss: 1.32938665, 	 Acc: 56.833 , 	 lr: 0.000500
-21:38:34 INFO Epoch: 15, 	 Valid, Loss: 1.51459439, 	 Acc: 37.000 , 	 Best Acc: 37.600
-21:38:34 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:34 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:34 DEBUG Writing TrueType font.
-21:38:35 INFO Epoch: 16, 	 Iter: 50/188, 	 Loss: 1.27291888, 	 Acc: 62.500 , 	 lr: 0.000500
-21:38:35 INFO Epoch: 16, 	 Iter: 100/188, 	 Loss: 1.28590062, 	 Acc: 61.344 , 	 lr: 0.000500
-21:38:35 INFO Epoch: 16, 	 Iter: 150/188, 	 Loss: 1.31810298, 	 Acc: 57.938 , 	 lr: 0.000500
-21:38:37 INFO Epoch: 16, 	 Valid, Loss: 1.51008873, 	 Acc: 38.400 , 	 Best Acc: 38.400
-21:38:37 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:37 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:37 DEBUG Writing TrueType font.
-21:38:37 INFO Epoch: 17, 	 Iter: 50/188, 	 Loss: 1.25934849, 	 Acc: 64.375 , 	 lr: 0.000500
-21:38:38 INFO Epoch: 17, 	 Iter: 100/188, 	 Loss: 1.27249976, 	 Acc: 62.875 , 	 lr: 0.000500
-21:38:38 INFO Epoch: 17, 	 Iter: 150/188, 	 Loss: 1.29736726, 	 Acc: 60.188 , 	 lr: 0.000500
-21:38:39 INFO Epoch: 17, 	 Valid, Loss: 1.52321818, 	 Acc: 36.800 , 	 Best Acc: 38.400
-21:38:39 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:39 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:39 DEBUG Writing TrueType font.
-21:38:40 INFO Epoch: 18, 	 Iter: 50/188, 	 Loss: 1.24944880, 	 Acc: 64.750 , 	 lr: 0.000500
-21:38:40 INFO Epoch: 18, 	 Iter: 100/188, 	 Loss: 1.26041497, 	 Acc: 63.938 , 	 lr: 0.000500
-21:38:41 INFO Epoch: 18, 	 Iter: 150/188, 	 Loss: 1.28593679, 	 Acc: 61.354 , 	 lr: 0.000500
-21:38:41 INFO Epoch: 18, 	 Valid, Loss: 1.50263017, 	 Acc: 39.600 , 	 Best Acc: 39.600
-21:38:42 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:42 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:42 DEBUG Writing TrueType font.
-21:38:42 INFO Epoch: 19, 	 Iter: 50/188, 	 Loss: 1.22783159, 	 Acc: 67.375 , 	 lr: 0.000500
-21:38:43 INFO Epoch: 19, 	 Iter: 100/188, 	 Loss: 1.23915911, 	 Acc: 66.469 , 	 lr: 0.000500
-21:38:43 INFO Epoch: 19, 	 Iter: 150/188, 	 Loss: 1.27191028, 	 Acc: 63.000 , 	 lr: 0.000500
-21:38:44 INFO Epoch: 19, 	 Valid, Loss: 1.47867873, 	 Acc: 41.800 , 	 Best Acc: 41.800
-21:38:44 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:44 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:44 DEBUG Writing TrueType font.
-21:38:45 INFO Epoch: 20, 	 Iter: 50/188, 	 Loss: 1.24736213, 	 Acc: 65.562 , 	 lr: 0.000500
-21:38:45 INFO Epoch: 20, 	 Iter: 100/188, 	 Loss: 1.24777065, 	 Acc: 65.312 , 	 lr: 0.000500
-21:38:46 INFO Epoch: 20, 	 Iter: 150/188, 	 Loss: 1.28088405, 	 Acc: 62.000 , 	 lr: 0.000500
-21:38:47 INFO Epoch: 20, 	 Valid, Loss: 1.46264190, 	 Acc: 43.400 , 	 Best Acc: 43.400
-21:38:47 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:47 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:47 DEBUG Writing TrueType font.
-21:38:47 INFO Epoch: 21, 	 Iter: 50/188, 	 Loss: 1.24552123, 	 Acc: 65.625 , 	 lr: 0.000500
-21:38:48 INFO Epoch: 21, 	 Iter: 100/188, 	 Loss: 1.24268265, 	 Acc: 65.844 , 	 lr: 0.000500
-21:38:48 INFO Epoch: 21, 	 Iter: 150/188, 	 Loss: 1.26773117, 	 Acc: 63.229 , 	 lr: 0.000500
-21:38:49 INFO Epoch: 21, 	 Valid, Loss: 1.47372913, 	 Acc: 42.600 , 	 Best Acc: 43.400
-21:38:49 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:49 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:49 DEBUG Writing TrueType font.
-21:38:50 INFO Epoch: 22, 	 Iter: 50/188, 	 Loss: 1.22512176, 	 Acc: 67.875 , 	 lr: 0.000500
-21:38:50 INFO Epoch: 22, 	 Iter: 100/188, 	 Loss: 1.23110112, 	 Acc: 67.375 , 	 lr: 0.000500
-21:38:51 INFO Epoch: 22, 	 Iter: 150/188, 	 Loss: 1.25439775, 	 Acc: 64.938 , 	 lr: 0.000500
-21:38:52 INFO Epoch: 22, 	 Valid, Loss: 1.48075689, 	 Acc: 42.400 , 	 Best Acc: 43.400
-21:38:52 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:52 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:52 DEBUG Writing TrueType font.
-21:38:52 INFO Epoch: 23, 	 Iter: 50/188, 	 Loss: 1.23867359, 	 Acc: 66.000 , 	 lr: 0.000500
-21:38:53 INFO Epoch: 23, 	 Iter: 100/188, 	 Loss: 1.23615860, 	 Acc: 66.500 , 	 lr: 0.000500
-21:38:53 INFO Epoch: 23, 	 Iter: 150/188, 	 Loss: 1.25087478, 	 Acc: 64.854 , 	 lr: 0.000500
-21:38:54 INFO Epoch: 23, 	 Valid, Loss: 1.47996613, 	 Acc: 41.200 , 	 Best Acc: 43.400
-21:38:54 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:54 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:54 DEBUG Writing TrueType font.
-21:38:55 INFO Epoch: 24, 	 Iter: 50/188, 	 Loss: 1.19921655, 	 Acc: 70.188 , 	 lr: 0.000500
-21:38:55 INFO Epoch: 24, 	 Iter: 100/188, 	 Loss: 1.20542101, 	 Acc: 69.688 , 	 lr: 0.000500
-21:38:56 INFO Epoch: 24, 	 Iter: 150/188, 	 Loss: 1.22852420, 	 Acc: 67.375 , 	 lr: 0.000500
-21:38:57 INFO Epoch: 24, 	 Valid, Loss: 1.47098603, 	 Acc: 43.000 , 	 Best Acc: 43.400
-21:38:57 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:57 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:57 DEBUG Writing TrueType font.
-21:38:57 INFO Epoch: 25, 	 Iter: 50/188, 	 Loss: 1.19135914, 	 Acc: 71.438 , 	 lr: 0.000500
-21:38:58 INFO Epoch: 25, 	 Iter: 100/188, 	 Loss: 1.19702250, 	 Acc: 70.812 , 	 lr: 0.000500
-21:38:58 INFO Epoch: 25, 	 Iter: 150/188, 	 Loss: 1.21950436, 	 Acc: 68.333 , 	 lr: 0.000500
-21:38:59 INFO Epoch: 25, 	 Valid, Loss: 1.46660120, 	 Acc: 43.600 , 	 Best Acc: 43.600
-21:38:59 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:38:59 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:38:59 DEBUG Writing TrueType font.
-21:39:00 INFO Epoch: 26, 	 Iter: 50/188, 	 Loss: 1.18848311, 	 Acc: 71.312 , 	 lr: 0.000500
-21:39:00 INFO Epoch: 26, 	 Iter: 100/188, 	 Loss: 1.19991265, 	 Acc: 70.188 , 	 lr: 0.000500
-21:39:01 INFO Epoch: 26, 	 Iter: 150/188, 	 Loss: 1.21575456, 	 Acc: 68.646 , 	 lr: 0.000500
-21:39:02 INFO Epoch: 26, 	 Valid, Loss: 1.46120538, 	 Acc: 43.400 , 	 Best Acc: 43.600
-21:39:02 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:39:02 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:39:02 DEBUG Writing TrueType font.
-21:39:02 INFO Epoch: 27, 	 Iter: 50/188, 	 Loss: 1.18500213, 	 Acc: 72.000 , 	 lr: 0.000500
-21:39:03 INFO Epoch: 27, 	 Iter: 100/188, 	 Loss: 1.18667224, 	 Acc: 71.750 , 	 lr: 0.000500
-21:39:03 INFO Epoch: 27, 	 Iter: 150/188, 	 Loss: 1.21515259, 	 Acc: 68.729 , 	 lr: 0.000500
-21:39:04 INFO Epoch: 27, 	 Valid, Loss: 1.48757571, 	 Acc: 41.400 , 	 Best Acc: 43.600
-21:39:04 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:39:04 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:39:04 DEBUG Writing TrueType font.
-21:39:05 INFO Epoch: 28, 	 Iter: 50/188, 	 Loss: 1.17088404, 	 Acc: 73.125 , 	 lr: 0.000500
-21:39:05 INFO Epoch: 28, 	 Iter: 100/188, 	 Loss: 1.18371967, 	 Acc: 71.969 , 	 lr: 0.000500
-21:39:05 INFO Epoch: 28, 	 Iter: 150/188, 	 Loss: 1.20224522, 	 Acc: 70.104 , 	 lr: 0.000500
-21:39:06 INFO Epoch: 28, 	 Valid, Loss: 1.47147764, 	 Acc: 42.200 , 	 Best Acc: 43.600
-21:39:06 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:39:06 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:39:06 DEBUG Writing TrueType font.
-21:39:07 INFO Epoch: 29, 	 Iter: 50/188, 	 Loss: 1.17952739, 	 Acc: 72.125 , 	 lr: 0.000500
-21:39:07 INFO Epoch: 29, 	 Iter: 100/188, 	 Loss: 1.18495355, 	 Acc: 71.688 , 	 lr: 0.000500
-21:39:08 INFO Epoch: 29, 	 Iter: 150/188, 	 Loss: 1.20200886, 	 Acc: 69.938 , 	 lr: 0.000500
-21:39:09 INFO Epoch: 29, 	 Valid, Loss: 1.47128346, 	 Acc: 42.400 , 	 Best Acc: 43.600
-21:39:09 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:39:09 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:39:09 DEBUG Writing TrueType font.
-21:39:09 INFO Epoch: 30, 	 Iter: 50/188, 	 Loss: 1.17125818, 	 Acc: 73.000 , 	 lr: 0.000500
-21:39:10 INFO Epoch: 30, 	 Iter: 100/188, 	 Loss: 1.17980430, 	 Acc: 72.156 , 	 lr: 0.000500
-21:39:10 INFO Epoch: 30, 	 Iter: 150/188, 	 Loss: 1.19589164, 	 Acc: 70.604 , 	 lr: 0.000500
-21:39:11 INFO Epoch: 30, 	 Valid, Loss: 1.48435539, 	 Acc: 40.600 , 	 Best Acc: 43.600
-21:39:11 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
-21:39:11 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
-21:39:11 DEBUG Writing TrueType font.
-21:39:11 INFO valid loss: 1.467, 	 valid acc: 43.600, 	 test loss: 1.500, 	 test acc: 40.000 
+22:38:43 INFO Epoch: 1, 	 Iter: 50/188, 	 Loss: 1.64658902, 	 Acc: 21.438 , 	 lr: 0.000100
+22:38:44 INFO Epoch: 1, 	 Iter: 100/188, 	 Loss: 1.63698519, 	 Acc: 22.219 , 	 lr: 0.000100
+22:38:44 INFO Epoch: 1, 	 Iter: 150/188, 	 Loss: 1.63246031, 	 Acc: 22.312 , 	 lr: 0.000100
+22:38:45 INFO Epoch: 1, 	 Valid, Loss: 1.63823096, 	 Acc: 18.800 , 	 Best Acc: 18.800
+22:38:45 DEBUG Loaded backend agg version v2.2.
+22:38:45 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msbm10.ttf', name='msbm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Navilu/Navilu.ttf', name='Navilu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-orya-extra/utkal.ttf', name='ori1Uni', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-Bold.ttf', name='Kinnari', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee.ttf', name='Sawasdee', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist-Bold.ttf', name='Tlwg Typist', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-LightOblique.ttf', name='Umpush', style='oblique', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-deva-extra/chandas1-2.ttf', name='Chandas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstTitle.ttf', name='KacstTitle', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-deva-extra/kalimati.ttf', name='Kalimati', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari.ttf', name='Kinnari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma-BoldOblique.ttf', name='Loma', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Manjari-Bold.otf', name='Manjari', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-Oblique.ttf', name='Umpush', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma-Bold.ttf', name='Loma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-devanagari/Lohit-Devanagari.ttf', name='Lohit Devanagari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa.ttf', name='Purisa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/JamrulNormal.ttf', name='Jamrul', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.9590909090909092
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa-Oblique.ttf', name='Purisa', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc', name='Noto Serif CJK JP', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/LikhanNormal.ttf', name='Likhan', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOS.ttf', name='Khmer OS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-Oblique.ttf', name='Norasi', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter-BoldOblique.ttf', name='Tlwg Typewriter', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-assamese/Lohit-Assamese.ttf', name='Lohit Assamese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-SemiBold.ttf', name='Rasa', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstQurn.ttf', name='KacstQurn', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree-Oblique.ttf', name='Waree', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Sahadeva/sahadeva.ttf', name='Sahadeva', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak-fonts/Samyak-Malayalam.ttf', name='Samyak Malayalam', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstLetter.ttf', name='KacstLetter', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono.ttf', name='Tlwg Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Medium.ttf', name='Yrsa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerif.ttf', name='FreeSerif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-kannada/Lohit-Kannada.ttf', name='Lohit Kannada', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Rachana-Regular.ttf', name='Rachana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak/Samyak-Devanagari.ttf', name='Samyak Devanagari', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Regular.ttf', name='Rasa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Manjari-Thin.otf', name='Manjari', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/PadaukBook-Regular.ttf', name='Padauk Book', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Sarai/Sarai.ttf', name='Sarai', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush.ttf', name='Umpush', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree.ttf', name='Waree', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-BoldItalic.ttf', name='Norasi', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msam10.ttf', name='msam10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Keraleeyam-Regular.ttf', name='Keraleeyam', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-kalapi/Kalapi.ttf', name='Kalapi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-Bold.ttf', name='Umpush', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-Italic.ttf', name='Kinnari', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-telu-extra/vemana2000.ttf', name='Vemana2000', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBoldOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-BoldOblique.ttf', name='Kinnari', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi.ttf', name='Norasi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/Rekha.ttf', name='Rekha', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-punjabi/Lohit-Gurmukhi.ttf', name='Lohit Gurmukhi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee-Oblique.ttf', name='Sawasdee', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak-fonts/Samyak-Tamil.ttf', name='Samyak Tamil', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst-one/KacstOne-Bold.ttf', name='KacstOne', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc', name='Noto Serif CJK JP', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstFarsi.ttf', name='KacstFarsi', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-malayalam/Lohit-Malayalam.ttf', name='Lohit Malayalam', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Bold.ttf', name='Rasa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/mitra.ttf', name='Mitra Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuMathTeXGyre.ttf', name='DejaVu Math TeX Gyre', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstDecorative.ttf', name='KacstDecorative', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist-Oblique.ttf', name='Tlwg Typist', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Gayathri-Bold.otf', name='Gayathri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman-Italic.ttf', name='Laksaman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Gayathri-Regular.otf', name='Gayathri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/pagul/Pagul.ttf', name='Pagul', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee-BoldOblique.ttf', name='Sawasdee', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/PadaukBook-Bold.ttf', name='Padauk Book', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter-Oblique.ttf', name='Tlwg Typewriter', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Bold.ttf', name='Yrsa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo-Bold.ttf', name='Tlwg Typo', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-L.ttf', name='Ubuntu', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-telu-extra/Pothana2000.ttf', name='Pothana2000', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/wasy10.ttf', name='wasy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-bengali/Lohit-Bengali.ttf', name='Lohit Bengali', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstTitleL.ttf', name='KacstTitleL', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-Oblique.ttf', name='Kinnari', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstDigital.ttf', name='KacstDigital', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', name='FreeSans', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/RaghuMalayalamSans-Regular.ttf', name='RaghuMalayalamSans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-MI.ttf', name='Ubuntu', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda-Oblique.ttf', name='Garuda', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Sawasdee-Bold.ttf', name='Sawasdee', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-Light.ttf', name='Umpush', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda-Bold.ttf', name='Garuda', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Medium.ttf', name='Rasa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMono.ttf', name='FreeMono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman-BoldItalic.ttf', name='Laksaman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.2440909090909091
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/rsfs10.ttf', name='rsfs10', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-RI.ttf', name='Ubuntu', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf', name='Ubuntu', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstNaskh.ttf', name='KacstNaskh', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman.ttf', name='Laksaman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstBook.ttf', name='KacstBook', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', name='Ubuntu', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Laksaman-Bold.ttf', name='Laksaman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf', name='Ubuntu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo.ttf', name='Tlwg Typo', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstPen.ttf', name='KacstPen', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono-BoldOblique.ttf', name='Tlwg Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-BI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-BoldOblique.ttf', name='Norasi', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Rasa-Light.ttf', name='Rasa', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/mry_KacstQurn.ttf', name='mry_KacstQurn', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Karumbi-Regular.ttf', name='Karumbi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc', name='Noto Sans CJK JP', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Umpush-BoldOblique.ttf', name='Umpush', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/esint10.ttf', name='esint10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lao/Phetsarath_OT.ttf', name='Phetsarath OT', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-tamil-classical/Lohit-Tamil-Classical.ttf', name='Lohit Tamil Classical', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono-Oblique.ttf', name='Tlwg Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/Padauk-Bold.ttf', name='Padauk', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Uroob-Regular.ttf', name='Uroob', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/ani.ttf', name='Ani', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf', name='Ubuntu', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/padmaa-Bold.1.1.ttf', name='padmaa-Bold.1.1', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/MuktiNarrow.ttf', name='Mukti Narrow', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Kinnari-BoldItalic.ttf', name='Kinnari', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Light.ttf', name='Yrsa', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-Regular.ttf', name='Yrsa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter.ttf', name='Tlwg Typewriter', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.9590909090909092
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-LI.ttf', name='Ubuntu', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/AnjaliOldLipi-Regular.ttf', name='AnjaliOldLipi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstOffice.ttf', name='KacstOffice', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda-BoldOblique.ttf', name='Garuda', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Meera-Regular.ttf', name='Meera', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/stmary10.ttf', name='stmary10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa-BoldOblique.ttf', name='Purisa', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/openoffice/opens___.ttf', name='OpenSymbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/padmaa.ttf', name='padmaa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-deva-extra/samanata.ttf', name='Samanata', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-yrsa-rasa/Yrsa-SemiBold.ttf', name='Yrsa', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree-BoldOblique.ttf', name='Waree', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Waree-Bold.ttf', name='Waree', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/aakar-medium.ttf', name='aakar', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBoldOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 2.244090909090909
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/eufm10.ttf', name='eufm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Nakula/nakula.ttf', name='Nakula', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-C.ttf', name='Ubuntu Condensed', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf', name='FreeSerif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-Bold.ttf', name='Norasi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-khmeros-core/KhmerOSsys.ttf', name='Khmer OS System', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf', name='Ubuntu Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstPoster.ttf', name='KacstPoster', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo-Oblique.ttf', name='Tlwg Typo', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-guru-extra/Saab.ttf', name='Saab', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf', name='FreeMono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/samyak-fonts/Samyak-Gujarati.ttf', name='Samyak Gujarati', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypo-BoldOblique.ttf', name='Tlwg Typo', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist.ttf', name='Tlwg Typist', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Dyuthi-Regular.ttf', name='Dyuthi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/sinhala/lklug.ttf', name='LKLUG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Rachana-Bold.ttf', name='Rachana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgMono-Bold.ttf', name='Tlwg Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-tamil/Lohit-Tamil.ttf', name='Lohit Tamil', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/malayalam/Suruma.ttf', name='Suruma', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/UbuntuMono-RI.ttf', name='Ubuntu Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypewriter-Bold.ttf', name='Tlwg Typewriter', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tibetan-machine/TibetanMachineUni.ttf', name='Tibetan Machine Uni', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/padauk/Padauk-Regular.ttf', name='Padauk', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Norasi-Italic.ttf', name='Norasi', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma.ttf', name='Loma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Gayathri-Thin.otf', name='Gayathri', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Manjari-Regular.otf', name='Manjari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Gargi/Gargi.ttf', name='Gargi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Garuda.ttf', name='Garuda', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/abyssinica/AbyssinicaSIL-Regular.ttf', name='Abyssinica SIL', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-oriya/Lohit-Odia.ttf', name='Lohit Odia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/malayalam/Chilanka-Regular.otf', name='Chilanka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-telugu/Lohit-Telugu.ttf', name='Lohit Telugu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lohit-gujarati/Lohit-Gujarati.ttf', name='Lohit Gujarati', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/TlwgTypist-BoldOblique.ttf', name='Tlwg Typist', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/Gubbi/Gubbi.ttf', name='Gubbi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstScreen.ttf', name='KacstScreen', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst-one/KacstOne.ttf', name='KacstOne', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-gujr-extra/padmaa-Medium-0.5.ttf', name='padmaa', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Purisa-Bold.ttf', name='Purisa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/kacst/KacstArt.ttf', name='KacstArt', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/tlwg/Loma-Oblique.ttf', name='Loma', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ubuntu/Ubuntu-Th.ttf', name='Ubuntu', style='normal', variant='normal', weight=250, stretch='normal', size='scalable')) = 10.1925
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/fonts-beng-extra/MuktiNarrowBold.ttf', name='Mukti Narrow', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+22:38:45 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSans.ttf', name='FreeSans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+22:38:45 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+22:38:46 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:38:46 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:38:46 DEBUG Writing TrueType font.
+22:38:46 INFO Epoch: 2, 	 Iter: 50/188, 	 Loss: 1.63963679, 	 Acc: 20.625 , 	 lr: 0.000100
+22:38:46 INFO Epoch: 2, 	 Iter: 100/188, 	 Loss: 1.63140278, 	 Acc: 20.844 , 	 lr: 0.000100
+22:38:47 INFO Epoch: 2, 	 Iter: 150/188, 	 Loss: 1.62982521, 	 Acc: 20.792 , 	 lr: 0.000100
+22:38:48 INFO Epoch: 2, 	 Valid, Loss: 1.63891949, 	 Acc: 19.200 , 	 Best Acc: 19.200
+22:38:48 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:38:48 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:38:48 DEBUG Writing TrueType font.
+22:38:49 INFO Epoch: 3, 	 Iter: 50/188, 	 Loss: 1.61680192, 	 Acc: 23.000 , 	 lr: 0.000100
+22:38:49 INFO Epoch: 3, 	 Iter: 100/188, 	 Loss: 1.61162092, 	 Acc: 23.906 , 	 lr: 0.000100
+22:38:49 INFO Epoch: 3, 	 Iter: 150/188, 	 Loss: 1.61631702, 	 Acc: 22.812 , 	 lr: 0.000100
+22:38:50 INFO Epoch: 3, 	 Valid, Loss: 1.60888567, 	 Acc: 22.400 , 	 Best Acc: 22.400
+22:38:51 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:38:51 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:38:51 DEBUG Writing TrueType font.
+22:38:51 INFO Epoch: 4, 	 Iter: 50/188, 	 Loss: 1.60752425, 	 Acc: 23.500 , 	 lr: 0.000100
+22:38:52 INFO Epoch: 4, 	 Iter: 100/188, 	 Loss: 1.59973172, 	 Acc: 24.094 , 	 lr: 0.000100
+22:38:52 INFO Epoch: 4, 	 Iter: 150/188, 	 Loss: 1.60217756, 	 Acc: 23.854 , 	 lr: 0.000100
+22:38:53 INFO Epoch: 4, 	 Valid, Loss: 1.60389731, 	 Acc: 23.000 , 	 Best Acc: 23.000
+22:38:53 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:38:53 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:38:53 DEBUG Writing TrueType font.
+22:38:54 INFO Epoch: 5, 	 Iter: 50/188, 	 Loss: 1.58688117, 	 Acc: 26.312 , 	 lr: 0.000100
+22:38:54 INFO Epoch: 5, 	 Iter: 100/188, 	 Loss: 1.58795840, 	 Acc: 27.437 , 	 lr: 0.000100
+22:38:55 INFO Epoch: 5, 	 Iter: 150/188, 	 Loss: 1.59480467, 	 Acc: 25.500 , 	 lr: 0.000100
+22:38:56 INFO Epoch: 5, 	 Valid, Loss: 1.59423321, 	 Acc: 26.000 , 	 Best Acc: 26.000
+22:38:56 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:38:56 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:38:56 DEBUG Writing TrueType font.
+22:38:56 INFO Epoch: 6, 	 Iter: 50/188, 	 Loss: 1.56816426, 	 Acc: 28.500 , 	 lr: 0.000100
+22:38:57 INFO Epoch: 6, 	 Iter: 100/188, 	 Loss: 1.57206044, 	 Acc: 28.344 , 	 lr: 0.000100
+22:38:57 INFO Epoch: 6, 	 Iter: 150/188, 	 Loss: 1.58164709, 	 Acc: 26.833 , 	 lr: 0.000100
+22:38:58 INFO Epoch: 6, 	 Valid, Loss: 1.58103123, 	 Acc: 27.400 , 	 Best Acc: 27.400
+22:38:58 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:38:58 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:38:58 DEBUG Writing TrueType font.
+22:38:59 INFO Epoch: 7, 	 Iter: 50/188, 	 Loss: 1.55087466, 	 Acc: 33.250 , 	 lr: 0.000100
+22:38:59 INFO Epoch: 7, 	 Iter: 100/188, 	 Loss: 1.55379710, 	 Acc: 32.094 , 	 lr: 0.000100
+22:39:00 INFO Epoch: 7, 	 Iter: 150/188, 	 Loss: 1.56344337, 	 Acc: 30.562 , 	 lr: 0.000100
+22:39:01 INFO Epoch: 7, 	 Valid, Loss: 1.58268353, 	 Acc: 26.200 , 	 Best Acc: 27.400
+22:39:01 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:01 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:01 DEBUG Writing TrueType font.
+22:39:01 INFO Epoch: 8, 	 Iter: 50/188, 	 Loss: 1.54243534, 	 Acc: 33.375 , 	 lr: 0.000100
+22:39:02 INFO Epoch: 8, 	 Iter: 100/188, 	 Loss: 1.54934869, 	 Acc: 32.375 , 	 lr: 0.000100
+22:39:02 INFO Epoch: 8, 	 Iter: 150/188, 	 Loss: 1.56079333, 	 Acc: 30.646 , 	 lr: 0.000100
+22:39:03 INFO Epoch: 8, 	 Valid, Loss: 1.56976991, 	 Acc: 29.400 , 	 Best Acc: 29.400
+22:39:03 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:03 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:03 DEBUG Writing TrueType font.
+22:39:04 INFO Epoch: 9, 	 Iter: 50/188, 	 Loss: 1.52298645, 	 Acc: 36.250 , 	 lr: 0.000100
+22:39:04 INFO Epoch: 9, 	 Iter: 100/188, 	 Loss: 1.53605590, 	 Acc: 33.469 , 	 lr: 0.000100
+22:39:05 INFO Epoch: 9, 	 Iter: 150/188, 	 Loss: 1.55041479, 	 Acc: 31.667 , 	 lr: 0.000100
+22:39:05 INFO Epoch: 9, 	 Valid, Loss: 1.55884088, 	 Acc: 29.200 , 	 Best Acc: 29.400
+22:39:05 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:05 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:05 DEBUG Writing TrueType font.
+22:39:06 INFO Epoch: 10, 	 Iter: 50/188, 	 Loss: 1.51078165, 	 Acc: 37.500 , 	 lr: 0.000100
+22:39:06 INFO Epoch: 10, 	 Iter: 100/188, 	 Loss: 1.52357172, 	 Acc: 35.281 , 	 lr: 0.000100
+22:39:07 INFO Epoch: 10, 	 Iter: 150/188, 	 Loss: 1.53838450, 	 Acc: 33.438 , 	 lr: 0.000100
+22:39:08 INFO Epoch: 10, 	 Valid, Loss: 1.54551225, 	 Acc: 32.200 , 	 Best Acc: 32.200
+22:39:08 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:08 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:08 DEBUG Writing TrueType font.
+22:39:09 INFO Epoch: 11, 	 Iter: 50/188, 	 Loss: 1.48824337, 	 Acc: 40.062 , 	 lr: 0.000100
+22:39:09 INFO Epoch: 11, 	 Iter: 100/188, 	 Loss: 1.50544893, 	 Acc: 37.906 , 	 lr: 0.000100
+22:39:10 INFO Epoch: 11, 	 Iter: 150/188, 	 Loss: 1.51935807, 	 Acc: 35.958 , 	 lr: 0.000100
+22:39:11 INFO Epoch: 11, 	 Valid, Loss: 1.54405406, 	 Acc: 32.000 , 	 Best Acc: 32.200
+22:39:11 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:11 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:11 DEBUG Writing TrueType font.
+22:39:11 INFO Epoch: 12, 	 Iter: 50/188, 	 Loss: 1.46890932, 	 Acc: 42.000 , 	 lr: 0.000100
+22:39:12 INFO Epoch: 12, 	 Iter: 100/188, 	 Loss: 1.49300157, 	 Acc: 38.812 , 	 lr: 0.000100
+22:39:12 INFO Epoch: 12, 	 Iter: 150/188, 	 Loss: 1.50963863, 	 Acc: 36.604 , 	 lr: 0.000100
+22:39:13 INFO Epoch: 12, 	 Valid, Loss: 1.53982024, 	 Acc: 31.800 , 	 Best Acc: 32.200
+22:39:13 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:13 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:13 DEBUG Writing TrueType font.
+22:39:14 INFO Epoch: 13, 	 Iter: 50/188, 	 Loss: 1.45377464, 	 Acc: 44.375 , 	 lr: 0.000100
+22:39:14 INFO Epoch: 13, 	 Iter: 100/188, 	 Loss: 1.48076109, 	 Acc: 40.625 , 	 lr: 0.000100
+22:39:15 INFO Epoch: 13, 	 Iter: 150/188, 	 Loss: 1.49872083, 	 Acc: 38.500 , 	 lr: 0.000100
+22:39:16 INFO Epoch: 13, 	 Valid, Loss: 1.54269463, 	 Acc: 32.600 , 	 Best Acc: 32.600
+22:39:16 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:16 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:16 DEBUG Writing TrueType font.
+22:39:16 INFO Epoch: 14, 	 Iter: 50/188, 	 Loss: 1.44314222, 	 Acc: 43.750 , 	 lr: 0.000100
+22:39:17 INFO Epoch: 14, 	 Iter: 100/188, 	 Loss: 1.46652542, 	 Acc: 41.719 , 	 lr: 0.000100
+22:39:17 INFO Epoch: 14, 	 Iter: 150/188, 	 Loss: 1.48709911, 	 Acc: 39.354 , 	 lr: 0.000100
+22:39:18 INFO Epoch: 14, 	 Valid, Loss: 1.51677824, 	 Acc: 34.800 , 	 Best Acc: 34.800
+22:39:18 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:18 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:18 DEBUG Writing TrueType font.
+22:39:19 INFO Epoch: 15, 	 Iter: 50/188, 	 Loss: 1.42146060, 	 Acc: 46.625 , 	 lr: 0.000100
+22:39:19 INFO Epoch: 15, 	 Iter: 100/188, 	 Loss: 1.44324606, 	 Acc: 44.812 , 	 lr: 0.000100
+22:39:20 INFO Epoch: 15, 	 Iter: 150/188, 	 Loss: 1.46331842, 	 Acc: 42.438 , 	 lr: 0.000100
+22:39:21 INFO Epoch: 15, 	 Valid, Loss: 1.51608952, 	 Acc: 35.800 , 	 Best Acc: 35.800
+22:39:21 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:21 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:21 DEBUG Writing TrueType font.
+22:39:21 INFO Epoch: 16, 	 Iter: 50/188, 	 Loss: 1.40838726, 	 Acc: 47.875 , 	 lr: 0.000100
+22:39:22 INFO Epoch: 16, 	 Iter: 100/188, 	 Loss: 1.43316823, 	 Acc: 45.625 , 	 lr: 0.000100
+22:39:22 INFO Epoch: 16, 	 Iter: 150/188, 	 Loss: 1.45269753, 	 Acc: 43.500 , 	 lr: 0.000100
+22:39:23 INFO Epoch: 16, 	 Valid, Loss: 1.53310561, 	 Acc: 33.800 , 	 Best Acc: 35.800
+22:39:23 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:23 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:23 DEBUG Writing TrueType font.
+22:39:24 INFO Epoch: 17, 	 Iter: 50/188, 	 Loss: 1.40587741, 	 Acc: 48.688 , 	 lr: 0.000100
+22:39:24 INFO Epoch: 17, 	 Iter: 100/188, 	 Loss: 1.42816022, 	 Acc: 45.281 , 	 lr: 0.000100
+22:39:25 INFO Epoch: 17, 	 Iter: 150/188, 	 Loss: 1.45234174, 	 Acc: 42.562 , 	 lr: 0.000100
+22:39:26 INFO Epoch: 17, 	 Valid, Loss: 1.51038592, 	 Acc: 36.800 , 	 Best Acc: 36.800
+22:39:26 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:26 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:26 DEBUG Writing TrueType font.
+22:39:27 INFO Epoch: 18, 	 Iter: 50/188, 	 Loss: 1.38834533, 	 Acc: 50.313 , 	 lr: 0.000100
+22:39:27 INFO Epoch: 18, 	 Iter: 100/188, 	 Loss: 1.41032368, 	 Acc: 48.000 , 	 lr: 0.000100
+22:39:28 INFO Epoch: 18, 	 Iter: 150/188, 	 Loss: 1.42800346, 	 Acc: 46.125 , 	 lr: 0.000100
+22:39:28 INFO Epoch: 18, 	 Valid, Loss: 1.51095195, 	 Acc: 35.600 , 	 Best Acc: 36.800
+22:39:29 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:29 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:29 DEBUG Writing TrueType font.
+22:39:29 INFO Epoch: 19, 	 Iter: 50/188, 	 Loss: 1.38008781, 	 Acc: 52.125 , 	 lr: 0.000100
+22:39:29 INFO Epoch: 19, 	 Iter: 100/188, 	 Loss: 1.40108657, 	 Acc: 49.094 , 	 lr: 0.000100
+22:39:30 INFO Epoch: 19, 	 Iter: 150/188, 	 Loss: 1.41999581, 	 Acc: 47.125 , 	 lr: 0.000100
+22:39:31 INFO Epoch: 19, 	 Valid, Loss: 1.49991939, 	 Acc: 37.400 , 	 Best Acc: 37.400
+22:39:31 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:31 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:31 DEBUG Writing TrueType font.
+22:39:32 INFO Epoch: 20, 	 Iter: 50/188, 	 Loss: 1.37838878, 	 Acc: 52.000 , 	 lr: 0.000100
+22:39:32 INFO Epoch: 20, 	 Iter: 100/188, 	 Loss: 1.39443869, 	 Acc: 50.031 , 	 lr: 0.000100
+22:39:33 INFO Epoch: 20, 	 Iter: 150/188, 	 Loss: 1.41264878, 	 Acc: 47.958 , 	 lr: 0.000100
+22:39:34 INFO Epoch: 20, 	 Valid, Loss: 1.48982416, 	 Acc: 38.200 , 	 Best Acc: 38.200
+22:39:34 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:34 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:34 DEBUG Writing TrueType font.
+22:39:34 INFO Epoch: 21, 	 Iter: 50/188, 	 Loss: 1.35679688, 	 Acc: 53.062 , 	 lr: 0.000100
+22:39:34 INFO Epoch: 21, 	 Iter: 100/188, 	 Loss: 1.37754057, 	 Acc: 51.125 , 	 lr: 0.000100
+22:39:35 INFO Epoch: 21, 	 Iter: 150/188, 	 Loss: 1.39889295, 	 Acc: 48.938 , 	 lr: 0.000100
+22:39:36 INFO Epoch: 21, 	 Valid, Loss: 1.48013744, 	 Acc: 38.800 , 	 Best Acc: 38.800
+22:39:36 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:36 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:36 DEBUG Writing TrueType font.
+22:39:37 INFO Epoch: 22, 	 Iter: 50/188, 	 Loss: 1.35719778, 	 Acc: 53.625 , 	 lr: 0.000100
+22:39:37 INFO Epoch: 22, 	 Iter: 100/188, 	 Loss: 1.37170076, 	 Acc: 52.188 , 	 lr: 0.000100
+22:39:37 INFO Epoch: 22, 	 Iter: 150/188, 	 Loss: 1.39769336, 	 Acc: 49.312 , 	 lr: 0.000100
+22:39:38 INFO Epoch: 22, 	 Valid, Loss: 1.47932125, 	 Acc: 39.000 , 	 Best Acc: 39.000
+22:39:38 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:38 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:38 DEBUG Writing TrueType font.
+22:39:39 INFO Epoch: 23, 	 Iter: 50/188, 	 Loss: 1.34497694, 	 Acc: 55.250 , 	 lr: 0.000100
+22:39:39 INFO Epoch: 23, 	 Iter: 100/188, 	 Loss: 1.36418973, 	 Acc: 53.250 , 	 lr: 0.000100
+22:39:40 INFO Epoch: 23, 	 Iter: 150/188, 	 Loss: 1.38797717, 	 Acc: 50.688 , 	 lr: 0.000100
+22:39:41 INFO Epoch: 23, 	 Valid, Loss: 1.47296478, 	 Acc: 40.400 , 	 Best Acc: 40.400
+22:39:41 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:41 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:41 DEBUG Writing TrueType font.
+22:39:41 INFO Epoch: 24, 	 Iter: 50/188, 	 Loss: 1.33906773, 	 Acc: 55.937 , 	 lr: 0.000100
+22:39:42 INFO Epoch: 24, 	 Iter: 100/188, 	 Loss: 1.34996882, 	 Acc: 54.750 , 	 lr: 0.000100
+22:39:42 INFO Epoch: 24, 	 Iter: 150/188, 	 Loss: 1.38107384, 	 Acc: 51.250 , 	 lr: 0.000100
+22:39:43 INFO Epoch: 24, 	 Valid, Loss: 1.49902031, 	 Acc: 37.400 , 	 Best Acc: 40.400
+22:39:43 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:43 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:43 DEBUG Writing TrueType font.
+22:39:44 INFO Epoch: 25, 	 Iter: 50/188, 	 Loss: 1.33412698, 	 Acc: 56.250 , 	 lr: 0.000100
+22:39:44 INFO Epoch: 25, 	 Iter: 100/188, 	 Loss: 1.35011636, 	 Acc: 54.656 , 	 lr: 0.000100
+22:39:45 INFO Epoch: 25, 	 Iter: 150/188, 	 Loss: 1.36678986, 	 Acc: 52.833 , 	 lr: 0.000100
+22:39:46 INFO Epoch: 25, 	 Valid, Loss: 1.49628705, 	 Acc: 38.200 , 	 Best Acc: 40.400
+22:39:46 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:46 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:46 DEBUG Writing TrueType font.
+22:39:46 INFO Epoch: 26, 	 Iter: 50/188, 	 Loss: 1.32332350, 	 Acc: 56.688 , 	 lr: 0.000100
+22:39:47 INFO Epoch: 26, 	 Iter: 100/188, 	 Loss: 1.33580814, 	 Acc: 56.156 , 	 lr: 0.000100
+22:39:47 INFO Epoch: 26, 	 Iter: 150/188, 	 Loss: 1.35423073, 	 Acc: 54.458 , 	 lr: 0.000100
+22:39:48 INFO Epoch: 26, 	 Valid, Loss: 1.50656761, 	 Acc: 38.400 , 	 Best Acc: 40.400
+22:39:48 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:48 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:48 DEBUG Writing TrueType font.
+22:39:49 INFO Epoch: 27, 	 Iter: 50/188, 	 Loss: 1.33187036, 	 Acc: 55.937 , 	 lr: 0.000100
+22:39:49 INFO Epoch: 27, 	 Iter: 100/188, 	 Loss: 1.33906164, 	 Acc: 55.250 , 	 lr: 0.000100
+22:39:49 INFO Epoch: 27, 	 Iter: 150/188, 	 Loss: 1.35641133, 	 Acc: 53.479 , 	 lr: 0.000100
+22:39:50 INFO Epoch: 27, 	 Valid, Loss: 1.46699130, 	 Acc: 41.200 , 	 Best Acc: 41.200
+22:39:50 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:50 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:50 DEBUG Writing TrueType font.
+22:39:51 INFO Epoch: 28, 	 Iter: 50/188, 	 Loss: 1.31964557, 	 Acc: 57.938 , 	 lr: 0.000100
+22:39:51 INFO Epoch: 28, 	 Iter: 100/188, 	 Loss: 1.32563068, 	 Acc: 57.188 , 	 lr: 0.000100
+22:39:52 INFO Epoch: 28, 	 Iter: 150/188, 	 Loss: 1.34045529, 	 Acc: 55.604 , 	 lr: 0.000100
+22:39:53 INFO Epoch: 28, 	 Valid, Loss: 1.47202663, 	 Acc: 41.000 , 	 Best Acc: 41.200
+22:39:53 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:53 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:53 DEBUG Writing TrueType font.
+22:39:53 INFO Epoch: 29, 	 Iter: 50/188, 	 Loss: 1.30953387, 	 Acc: 58.812 , 	 lr: 0.000100
+22:39:54 INFO Epoch: 29, 	 Iter: 100/188, 	 Loss: 1.31684157, 	 Acc: 58.531 , 	 lr: 0.000100
+22:39:54 INFO Epoch: 29, 	 Iter: 150/188, 	 Loss: 1.33049155, 	 Acc: 57.104 , 	 lr: 0.000100
+22:39:55 INFO Epoch: 29, 	 Valid, Loss: 1.47333710, 	 Acc: 41.000 , 	 Best Acc: 41.200
+22:39:55 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:55 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:55 DEBUG Writing TrueType font.
+22:39:56 INFO Epoch: 30, 	 Iter: 50/188, 	 Loss: 1.28986922, 	 Acc: 61.312 , 	 lr: 0.000100
+22:39:56 INFO Epoch: 30, 	 Iter: 100/188, 	 Loss: 1.30541580, 	 Acc: 59.750 , 	 lr: 0.000100
+22:39:57 INFO Epoch: 30, 	 Iter: 150/188, 	 Loss: 1.32103105, 	 Acc: 58.167 , 	 lr: 0.000100
+22:39:58 INFO Epoch: 30, 	 Valid, Loss: 1.48338746, 	 Acc: 39.400 , 	 Best Acc: 41.200
+22:39:58 DEBUG Assigning font /F1 = '/home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+22:39:58 DEBUG Embedding font /home/lidongting/miniconda3/envs/NLP/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+22:39:58 DEBUG Writing TrueType font.
+22:39:58 INFO valid loss: 1.467, 	 valid acc: 41.200, 	 test loss: 1.517, 	 test acc: 35.800 
