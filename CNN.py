@@ -12,13 +12,15 @@ class CNN(nn.Module):
         if glove_embeddings != None:
             self.embed.weight = nn.Parameter(glove_embeddings, requires_grad=False)
         self.conv1 = nn.Conv1d(embedding_size, hidden_size, kernel_size=2)
+        self.bn1 = nn.BatchNorm1d(hidden_size)
         self.conv2 = nn.Conv1d(embedding_size, hidden_size, kernel_size=3)
+        self.bn2 = nn.BatchNorm1d(hidden_size)
         self.conv3 = nn.Conv1d(embedding_size, hidden_size, kernel_size=4)
+        self.bn3 = nn.BatchNorm1d(hidden_size)
         self.fc1 = nn.Linear(hidden_size * 3, hidden_size)
         self.ReLU = nn.ReLU()
         self.fc2 = nn.Linear(hidden_size, 5)
         self.softmax = nn.Softmax(dim=1)
-        self.dropout = nn.Dropout(0.5)
         #################################################################################################
 
     def forward(self, inputs):
@@ -33,17 +35,16 @@ class CNN(nn.Module):
         # batch * embedding_size * seq_length
         embed = embed.permute(0, 2, 1)
         # batch * hidden_size * (seq_length - kernel_size + 1)
-        conv1 = self.conv1(embed)
+        conv1 = self.ReLU(self.bn1(self.conv1(embed)))
         # batch * hidden_size * (seq_length - kernel_size + 1)
-        conv2 = self.conv2(embed)
+        conv2 = self.ReLU(self.bn2(self.conv2(embed)))
         # batch * hidden_size * (seq_length - kernel_size + 1)
-        conv3 = self.conv3(embed)
+        conv3 = self.ReLU(self.bn3(self.conv3(embed)))
         # batch * hidden_size 
         conv1 = torch.max(conv1, dim=-1)[0]
         conv2 = torch.max(conv2, dim=-1)[0]
         conv3 = torch.max(conv3, dim=-1)[0]
         outputs = torch.cat((conv1, conv2, conv3), -1)
-        outputs = self.dropout(outputs)
         outputs = self.fc1(outputs)
         outputs = self.ReLU(outputs)
         outputs = self.fc2(outputs)
